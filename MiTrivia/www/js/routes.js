@@ -31,7 +31,7 @@ angular.module('app.routes', [])
   })
 
   .state('tabsController.estadSticas', {
-    url: '/page4',
+    url: '/page4/:conteo',
     views: {
       'tab3': {
         templateUrl: 'templates/estadSticas.html',

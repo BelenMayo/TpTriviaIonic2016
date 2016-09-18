@@ -1,7 +1,12 @@
 <ion-view title="Juego" id="page3">
     <ion-content padding="true" style="background: url(img/jG1OutyrQAWSP43kbn46_gatoJuego.jpg) no-repeat center;background-size:cover;" class="has-header">
-        <button id="juego-button4" style="font-weight:lighter;" class="button button-royal  button-block">4</button>
-        <button id="juego-button5" style="font-weight:lighter;" class="button button-royal  button-block">7</button>
-        <button id="juego-button6" style="font-weight:lighter;" class="button button-royal  button-block">6</button>
+
+      	<h2>{{preguntas.preg}}</h2>
+
+        <button id="juego-button4" style="font-weight:lighter;" class="button button-royal  button-block" ng-click="Enviar(preguntas.resp.r1)">{{preguntas.resp.r1}}</button>
+        <button id="juego-button5" style="font-weight:lighter;" class="button button-royal  button-block" ng-click="Enviar(preguntas.resp.r2)">{{preguntas.resp.r2}}</button>
+        <button id="juego-button6" style="font-weight:lighter;" class="button button-royal  button-block" ng-click="Enviar(preguntas.resp.r3)">{{preguntas.resp.r3}}</button>
+
+    
     </ion-content>
 </ion-view>
