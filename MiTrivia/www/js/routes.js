@@ -10,12 +10,12 @@ angular.module('app.routes', [])
     
   
 
-      .state('tabsController.cameraTabDefaultPage', {
+      .state('tabsController.informaciNDeAutor', {
     url: '/page2',
     views: {
       'tab1': {
-        templateUrl: 'templates/cameraTabDefaultPage.html',
-        controller: 'cameraTabDefaultPageCtrl'
+        templateUrl: 'templates/informaciNDeAutor.html',
+        controller: 'informaciNDeAutorCtrl'
       }
     }
   })
@@ -30,12 +30,12 @@ angular.module('app.routes', [])
     }
   })
 
-  .state('tabsController.cloudTabDefaultPage', {
+  .state('tabsController.estadSticas', {
     url: '/page4',
     views: {
       'tab3': {
-        templateUrl: 'templates/cloudTabDefaultPage.html',
-        controller: 'cloudTabDefaultPageCtrl'
+        templateUrl: 'templates/estadSticas.html',
+        controller: 'estadSticasCtrl'
       }
     }
   })
